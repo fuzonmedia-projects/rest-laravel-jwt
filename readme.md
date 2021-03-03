@@ -51,12 +51,12 @@ your system.
 
 3. create and edit .env file.
    
-   set following values
+set following values
 
-   ..* Set DB_PORT 
-   ..* Set DB_DATABASE
-   ..* Set DB_USERNAME 
-   ..* Set DB_PASSWORD
+   * Set DB_PORT 
+   * Set DB_DATABASE
+   * Set DB_USERNAME 
+   * Set DB_PASSWORD
 
    ..* Set DB_HOST with the container name of the mysql.
        You can found mysql container name in docker-compose.yml file
