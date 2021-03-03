@@ -48,16 +48,43 @@ your system.
    #### `docker-compose up`
 
 3. create and edit .env file.
+   
+   set following values
 
+   ..* Set DB_PORT 
+   ..* Set DB_DATABASE
+   ..* Set DB_USERNAME 
+   ..* Set DB_PASSWORD
+
+   ..* Set DB_HOST with the container name of the mysql.
+       You can found mysql container name in docker-compose.yml file
+       Check Example .env file from [here](https://raw.githubusercontent.com/laravel/laravel/8.x/.env.example ".env file")
 
 3. Run migrations into the docker cotainer.
-  #### `docker-compose run php artisan migrate`
+   #### `docker-compose run php artisan migrate`
 
 4. Laravel application key generate.
-  #### `docker-compose run php artisan key:generate`
+   #### `docker-compose run php artisan key:generate`
 
-5. generate jwt secret 
-  #### `docker-compose run php artisan jwt:secret`
+5. generate jwt secret. 
+   #### `docker-compose run php artisan jwt:secret`
+
+6. generate database seed.
+   #### `docker-compose run php artisan db:seed`
+
+## Resources
+### Laravel 
+  Laravel 8 Documentaions page.
+  ##### <https://laravel.com/docs/8.x/readme>
+
+### Jwt
+   Read this docs to know about how to use jwt in you laravel appliaction.
+   ##### <https://jwt-auth.readthedocs.io/en/develop/laravel-installation/>
+
+### Docker
+   Visit Docker official website.
+   #### <https://docs.docker.com/>
+
 
 
 
