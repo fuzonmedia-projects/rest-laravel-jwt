@@ -58,7 +58,7 @@ set following values
    * Set DB_USERNAME 
    * Set DB_PASSWORD
 
-   ..* Set DB_HOST with the container name of the mysql.
+   * Set DB_HOST with the container name of the mysql.
        You can found mysql container name in docker-compose.yml file
        Check Example .env file from [here](https://raw.githubusercontent.com/laravel/laravel/8.x/.env.example ".env file")
 
