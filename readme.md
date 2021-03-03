@@ -1,12 +1,14 @@
 # Rest Laravel jwt 
 
 ## What is the use of this project
-  This a rest API service created with laravel 8 and it uses jwt token to authenticate a user.
+  This is a rest API service created with laravel 8 and it uses jwt token to authenticate a user.
   One can run this project on docker also. 
   ### Following features available
-  1. You can make http request to the api.
-  2. Register and login features with jwt authentication.
-  3. Create, edit, delete, search and paginate orders making api requests.
+  1. Receive http requests and send repose back with data or make
+     changes of data within database against the http requests.
+  2. Recieve POST, GET, DELETE request from an application.
+  3. Register and login features with jwt authentication.
+  4. Create, edit, delete, search and paginate orders.
 
 
 ## Live Application URL
@@ -32,7 +34,7 @@ Use this [guidelines](https://docs.docker.com/compose/install/ "install docker-c
 
 
 ### 4.react-admin Rest API
-[react-admin rest api](https://github.com/fuzonmedia-projects/react-admin-rest-api "react-admin application's github repo") clone this repo and follow [readme](https://github.com/fuzonmedia-projects/react-admin-rest-api/blob/master/README.md) to run this react app in local. You will use this appliaction to make api calls ,fetch display the data
+[react-admin rest api](https://github.com/fuzonmedia-projects/react-admin-rest-api "react-admin application's github repo") clone this repo and follow [readme](https://github.com/fuzonmedia-projects/react-admin-rest-api/blob/master/README.md) to run this react app in local. You will use this appliaction to make api calls ,fetch and display the data
 on web pages. You will able to edit and delete the data also requesting to the api.
 
 
