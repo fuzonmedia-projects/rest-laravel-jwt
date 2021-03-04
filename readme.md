@@ -53,7 +53,7 @@ your system.
 
 check for .env.example and rename it with .env.
    
-Set following values in .env file
+Set following values in .env file as you want.
 
    * Set DB_PORT 
    * Set DB_DATABASE
@@ -123,12 +123,12 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
 
    ![register picture](./demo/tokenset.png "Set Bearer in postman")
 
-###  4. send get request.
+###  4. Send Get Request.
    Send get request with an id of a specific order to
    api/order/{id} endpoint. You will get following response.
 
    ![register picture](./demo/getone.png "send get request")
-
+   
 
 
 ## Resources
@@ -136,7 +136,7 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
   Laravel 8 Documentaions page.
   ##### <https://laravel.com/docs/8.x/readme>
 
-### Jwt
+### jwt-auth
    Read this docs to know about how to use jwt in you laravel appliaction.
    ##### <https://jwt-auth.readthedocs.io/en/develop/laravel-installation/>
 
