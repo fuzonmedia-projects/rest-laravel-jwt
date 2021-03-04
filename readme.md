@@ -67,16 +67,16 @@ Set following values in .env file
        
 
 3. Run migrations into the docker cotainer.
-   #### `docker-compose run php artisan migrate`
+   #### `docker-compose run fuzonapi php artisan migrate`
 
 4. Laravel application key generate.
-   #### `docker-compose run php artisan key:generate`
+   #### `docker-compose run fuzonapi php artisan key:generate`
 
 5. generate jwt secret. 
-   #### `docker-compose run php artisan jwt:secret`
+   #### `docker-compose run fuzonapi php artisan jwt:secret`
 
 6. generate database seed for demo data.
-   #### `docker-compose run php artisan db:seed`
+   #### `docker-compose run fuzonapi php artisan db:seed`
 
 
 ## Addtional Command
@@ -85,11 +85,11 @@ docker you may need run command on the docker container.
 
 set permission for folder run this two command
 
-`sudo docker-compose run tretailapi  chmod -R 755 .`
+`docker-compose run fuzonapi  chmod -R 755 .`
 
 and
 
-`sudo docker-compose run tretailapi  chmod -R 777 ./storage`
+`docker-compose run fuzonapi chmod -R 777 ./storage`
 
 
 ## Start with rest-laravel-jwt
@@ -127,7 +127,7 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
       Send get request with an id of a specific order to
      api/order/{id} endpoint. You will get following response.
 
-     ![register picture](./demo/getone.png "send get request")
+   ![register picture](./demo/getone.png "send get request")
 
 
 
