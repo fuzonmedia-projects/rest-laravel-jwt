@@ -1,4 +1,4 @@
-# Rest Laravel jwt 
+## Rest Laravel jwt 
 
 ## What is the use of this project
   This is a rest API service created with laravel 8 and it uses jwt token to authenticate a user.
