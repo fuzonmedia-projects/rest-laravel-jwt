@@ -124,15 +124,15 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
    ![register picture](./demo/tokenset.png "Set Bearer in postman")
 
 ###  4. send get request.
-      Send get request with an id of a specific order to
-     api/order/{id} endpoint. You will get following response.
+   Send get request with an id of a specific order to
+   api/order/{id} endpoint. You will get following response.
 
    ![register picture](./demo/getone.png "send get request")
 
 
 
 ## Resources
-### Laravel 
+### Laravel 8
   Laravel 8 Documentaions page.
   ##### <https://laravel.com/docs/8.x/readme>
 
