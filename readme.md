@@ -83,14 +83,19 @@ Set following values in .env file as you want.
 Some time running this application on
 docker you may need run command on the docker container.
 
-set permission for folder run this two command
+Set permission for folders and clear cache and config for with bellow commands
 
+1.
 `docker-compose run fuzonapi  chmod -R 755 .`
 
-and
-
+2.
 `docker-compose run fuzonapi chmod -R 777 ./storage`
 
+3.
+`docker-compose run fuzonapi php artisan config:clear`
+
+4.
+`docker-compose run fuzonapi php artisan cache:clear`
 
 ## Start with rest-laravel-jwt
 
@@ -133,7 +138,7 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
 
 ## Resources
 ### Laravel 8
-  Laravel 8 Documentaions page.
+  Laravel 8 Documentaion page.
   ##### <https://laravel.com/docs/8.x/readme>
 
 ### jwt-auth
