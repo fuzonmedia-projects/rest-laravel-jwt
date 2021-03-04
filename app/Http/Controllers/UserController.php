@@ -23,7 +23,10 @@ class UserController extends Controller
         $credentials=$request->only(['email','password']);
         //return response($credentials);
         if(!$token=Auth::attempt($credentials)){
-        return response($token,404);
+        return response()->json([
+            'statusText'=>'wrong username or password',
+            'status'=>403
+        ]);
         }
          return response()->json([
             'access_token' => $token,

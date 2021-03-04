@@ -123,15 +123,15 @@ class ProductController extends Controller
 
     }
     function getone($id){
-        /* if(!$product=Product::find($id))
+        if(!$product=Product::find($id))
          return ['Message','Order not Found'];
          //response()->json(Product::all());
          else{
            return response()->json($product);
          }
-         */
+         
 
-         $product=User::find(1);
+         //$product=User::find(1);
          return response()->json($product);
     }
 

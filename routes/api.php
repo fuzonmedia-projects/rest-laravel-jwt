@@ -25,11 +25,11 @@ Route::post('register',[UserController::class,'RegisterUser']);
 Route::group(['middleware'=>['jwtauth']],function(){
 
     //Route::get('me',[UserController::class,'me']);
-    Route::post('orders',[ProductController::class,'create']);
-    Route::delete('orders/{id}',[ProductController::class,'delete']);
-    Route::post('orders/{id}',[ProductController::class,'update']);
-    Route::get('orders',[ProductController::class,'getall']);
-    Route::get('orders/{id}',[ProductController::class,'getone']);
+    Route::post('orders',[ProductController::class,'create']);// create order routes // method post
+    Route::delete('orders/{id}',[ProductController::class,'delete']);// delete order route //method delete
+    Route::post('orders/{id}',[ProductController::class,'update']); // update order route // method post
+    Route::get('orders',[ProductController::class,'getall']); // get all orders // method get
+    Route::get('orders/{id}',[ProductController::class,'getone']); // get one order route // method get
 });
 
 
