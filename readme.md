@@ -133,7 +133,18 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
    api/order/{id} endpoint. You will get following response.
 
    ![register picture](./demo/getone.png "send get request")
-   
+
+
+### Filter Sort and Paginate:
+   To get limited filtered and sorted data records you have to send get request like this picture to
+   api/orders endpoint.
+   ![api test sort filter and search](./demo/filter.png "get limited filtered and sorted data")
+
+   Here you can see three parameter is filter range and sort in url sended via get request.
+   Here 'v' is the searched text, 0 and 10 is record offset and limit. Field name is 'id' where sort
+   applied and 'ASC' is the sorting order.
+
+
 
 
 ## Resources

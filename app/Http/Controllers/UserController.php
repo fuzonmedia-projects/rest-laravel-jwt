@@ -24,9 +24,8 @@ class UserController extends Controller
         //return response($credentials);
         if(!$token=Auth::attempt($credentials)){
         return response()->json([
-            'statusText'=>'wrong username or password',
-            'status'=>403
-        ]);
+            'message'=>'wrong username or password',
+        ],403);
         }
          return response()->json([
             'access_token' => $token,
