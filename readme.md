@@ -12,7 +12,7 @@
 
 ## Live Application URL
   Go to this link to visit our live application.
-  [Fuzon media react-admin rest api](https://google.com "Live Application Link")
+  [Fuzon media react-admin rest api](https://boiling-bayou-01991.herokuapp.com "Live Application Link")
 
 
 ## Prerequisite
