@@ -10,7 +10,6 @@
   3. Register and login features with jwt authentication.
   4. Create, edit, delete, search and paginate orders.
 
-
 ## Live Application URL
   Go to this link to visit our live application.
   [Fuzon media react-admin rest api](https://google.com "Live Application Link")
