@@ -4,7 +4,7 @@
   This is a rest API service created with laravel 8 and it uses jwt token to authenticate a user.
   One can run this project on docker also. 
   ### Following features available
-  1. Receive http requests and send repose back with data or make
+  1. Receive http requests and send response back with data or make
      changes of data within database against the http requests.
   2. Recieve POST, GET, DELETE request from an application.
   3. Register and login features with jwt authentication.
@@ -122,7 +122,7 @@ select raw from body tab. Before sending raw json set Content-Type to applicatio
 
 ### 3. Set Bearer.
    you need to set bearer like bellow in authorization header to send POST,DELETE,GET
-   request to this api/orders/  endpoint. Paste the copied value from previous like the picture.
+   request to this api/orders/  endpoint. Paste the copied value from previous step like the picture.
 
 
    ![register picture](./demo/tokenset.png "Set Bearer in postman")
